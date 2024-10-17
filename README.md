@@ -27,8 +27,6 @@ Telegram 推送签到结果
 
 ## 使用方式
 
-0. 右上角 **star** 本仓库（可选/支持）
-1. 右上角 **fork** 本仓库
 2. 添加环境变量：Settings - Secrets and variables - Actions - New repository secret
 3. 修改 .github/workflows/checkin.yml： 删除 `self-hosted` 并提交
 4. 北京时间每天早上 7:30 定时运行，或仓库 master 分支有提交时触发
